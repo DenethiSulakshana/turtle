@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    text-align: justify;
+}
+nav{
+    background: #77b3e1;
+    height: 80px;
+    width: 100%;
+}
+
+lable.logo{
+    color: black;
+    font-size: 28px;
+    line-height: 60px;
+    padding: 0 30px;
+    font-weight: bold;
+}
+span{
+    color: rgb(6, 6, 177);
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    text-transform:none;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.pages,a:hover{
+    background: rgb(53, 135, 208);
+    transition: .5s;
+}
+body>section{
+    margin-top: 0;
+    background-color: lightblue; /*fallback*/
+    background: url(threats.jpg) no-repeat 80% 100%; /*fallback*/
+    background-repeat: no-repeat; /*Do not repeat the image*/
+    background-size:cover;
+    height: 450px;
+    width: 100%;
+    float: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.img1 img {  
+    height: 250px;
+    width: 500px; 
+    float: right; 
+    margin-left: 10px; 
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  } 
+
+
+div.para1 {
+float: left; 
+width: 60%;
+font-size: 25px;
+font-weight: normal;
+margin-top: 40px;
+margin-left: 20px;
+margin-bottom: 70px;
+text-align: justify;
+}
+div.sub{
+    float:right;
+    font-size: 20px;
+}
+div.ways img{
+    height: 250px;
+    width: 500px;
+    float:left;
+    margin-left: 10px; 
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+div.intro{
+    float: right; 
+    width: 60%;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+div.img2 img{
+    height: 250px;
+    width: 500px;
+    float:right;
+    margin-left: 10px; 
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+div.para2 {
+    float: left; 
+    width: 60%;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+div.img3 img{
+    height: 250px;
+    width: 500px;
+    float:right;
+    margin-left: 10px; 
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+div.para3 {
+    float: left; 
+    width: 60%;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+div.img4 img{
+    height: 250px;
+    width: 500px;
+    float:right;
+    margin-left: 10px; 
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+div.para4 {
+    float: left; 
+    width: 60%;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+h2{
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+h1{
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.threats{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+h3{
+    font-weight: bold;
+    color: black;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#searchbar {
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    float: right;
+    display: inline;
+    text-align: center;
+}
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+.threats{
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: justify;
+}
